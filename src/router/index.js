@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
 // Import your components
-const Landing = () => import('../pages/Landing.vue')
+const Landing = () => import('../pages/landing.vue')
 const Login = () => import('../pages/Login.vue')
 const Signup = () => import('../pages/Signup.vue')
 const Ticket = () => import('../pages/Ticket.vue')
